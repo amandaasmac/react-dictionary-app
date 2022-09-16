@@ -11,7 +11,16 @@ export default function App() {
         <Dictionary />
       </main>
       <footer>
-        <small>Coded by Amanda Machado</small>
+        <small>
+          <a
+            href="https://github.com/amandaasmac/react-dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Coded
+          </a>{" "}
+          by Amanda Machado
+        </small>
       </footer>
     </div>
   );
