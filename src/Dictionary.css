@@ -9,6 +9,7 @@
 .Dictionary input {
   width: 60%;
   min-width: 350px;
+  max-width: 600px;
   border-radius: 30px;
   padding: 16px 20px;
   border: 2px solid var(--accent-one);
