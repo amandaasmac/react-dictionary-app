@@ -1,4 +1,6 @@
 import React from "react";
+import Synonyms from "./Synonyms";
+import Antonyms from "./Antonyms";
 
 export default function Meaning(props) {
   return (
@@ -14,26 +16,8 @@ export default function Meaning(props) {
           </div>
         );
       })}
-      <div>
-        <h4>Synonyms</h4>
-        {props.meaning.synonyms.map(function (synonym, index) {
-          return (
-            <div key={index}>
-              <span>{synonym}</span>
-            </div>
-          );
-        })}
-      </div>
-      <div>
-        <h4>Antonyms</h4>
-        {props.meaning.antonyms.map(function (antonym, index) {
-          return (
-            <div key={index}>
-              <span>{antonym}</span>
-            </div>
-          );
-        })}
-      </div>
+      <Synonyms synonyms={props.meaning.synonyms} />
+      <Antonyms synonyms={props.meaning.antonyms} />
     </div>
   );
 }
