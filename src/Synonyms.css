@@ -1,0 +1,8 @@
+.Synonyms {
+  margin-block-start: 2rem;
+}
+
+.Synonyms li {
+  border: 1px solid var(--accent-one);
+  color: var(--accent-one);
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning.js";
 import Phonetic from "./Phonetic.js";
+import "./Results.css";
 
 export default function Results(props) {
   if (props.data) {
@@ -14,9 +15,7 @@ export default function Results(props) {
             </div>
           );
         })}
-        <p>
-          <em>{props.data.phonetics[0].text}</em>
-        </p>
+
         <div>
           {props.data.meanings.map(function (meaning, index) {
             return (

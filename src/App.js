@@ -4,12 +4,13 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <h1>Dictionary</h1>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary default="sunset" />
       </main>
+
       <footer>
         <small>
           <a
@@ -17,7 +18,7 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Coded
+            Code
           </a>{" "}
           by Amanda Machado
         </small>

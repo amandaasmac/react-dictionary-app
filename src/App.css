@@ -1,6 +1,24 @@
 .App {
-  text-align: center;
-  max-width: 540px;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 1rem 2rem;
+  border-radius: 14px;
+}
+
+.App header {
+  text-align: center;
+}
+
+.App footer {
+  color: var(--light);
+  margin-block-start: 8px;
+  text-align: center;
+}
+
+.App a {
+  color: var(--accent-one);
+  text-decoration: none;
+}
+
+.App a:hover {
+  color: var(--accent-two);
 }

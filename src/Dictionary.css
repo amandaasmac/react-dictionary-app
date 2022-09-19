@@ -5,3 +5,13 @@
 .Dictionary header {
   padding-block: 0 3rem;
 }
+
+.Dictionary input {
+  width: 60%;
+  min-width: 350px;
+  border-radius: 30px;
+  padding: 16px 20px;
+  border: 2px solid var(--accent-one);
+  font-size: 1.2rem;
+  color: var(--accent-one);
+}
