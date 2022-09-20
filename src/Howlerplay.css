@@ -1,0 +1,8 @@
+.Howlerplay i {
+  color: var(--accent-one);
+}
+
+.Howlerplay i:hover {
+  color: var(--accent-two);
+  cursor: pointer;
+}

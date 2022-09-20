@@ -1,5 +1,5 @@
 import React from "react";
-
+import Howlerplay from "./Howlerplay";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
@@ -9,8 +9,8 @@ export default function Phonetic(props) {
         <p>
           <em>{props.phonetic.text}</em>
         </p>
-        <i class="fa-solid fa-volume-high"></i>
 
+        <Howlerplay audio={props.phonetic.audio} />
         {/* <ReactAudioPlayer src={props.phonetic.audio} controls /> */}
       </div>
     );
