@@ -15,5 +15,7 @@ export default function Howlerplay(props) {
         <i class="fa-solid fa-volume-high" onClick={play}></i>
       </div>
     );
+  } else {
+    return null;
   }
 }
